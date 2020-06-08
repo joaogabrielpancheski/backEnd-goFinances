@@ -18,7 +18,7 @@
     <img alt="Repository issues" src="https://img.shields.io/github/issues/joaogabrielpancheski/backEnd-goFinances.svg">
   </a>
 
-  <img alt="License" src="https://img.shields.io/github/license/joaogabrielpancheski/backEnd-goFinances.svg">
+  <img alt="License" src="https://img.shields.io/github/license/joaogabrielpancheski/backEnd-goFinances">
 </div>
 
 ## :clipboard: About
@@ -61,7 +61,7 @@ $ cd backEnd-goFinances
 $ yarn install
 
 # Run migrations to your database
-$ yarn migration:run
+$ yarn typeorm migration:run
 
 # Run the server
 $ yarn dev:server
